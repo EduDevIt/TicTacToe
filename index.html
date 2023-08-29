@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="index.css">
-    <script src="juego.js"></script>
+    
 </head>
 
 <body>
@@ -26,15 +26,15 @@
             <div id="centro">
 
                 <div id="tablero">
-                    <section class="celda_negra"></section>
-                    <section class="celda_roja"></section>
-                    <section class="celda_negra"></section>
-                    <section class="celda_roja"></section>
-                    <section class="celda_negra"></section>
-                    <section class="celda_roja"></section>
-                    <section class="celda_negra"></section>
-                    <section class="celda_roja"></section>
-                    <section class="celda_negra"></section>
+                    <section id="0" class="celda_negra" onClick="dondePintar(0); onClickTest()"></section>
+                    <section id="1" class="celda_roja" onClick="dondePintar(1); pintarCirculo()"></section> 
+                    <section id="2" class="celda_negra" onClick="dondePintar(2)"> </section>
+                    <section id="3" class="celda_roja" onClick="dondePintar(3)"> </section>
+                    <section id="4" class="celda_negra" onClick="dondePintar(4)"></section>
+                    <section id="5" class="celda_roja" onClick="dondePintar(5)"></section>
+                    <section id="6" class="celda_negra" onClick="dondePintar(6)"></section>
+                    <section id="7" class="celda_roja" onClick="dondePintar(7)"></section>
+                    <section id="8" class="celda_negra" onClick="dondePintar(8)"></section>
                 </div>
             </div>
             <aside id="lateralizq">
@@ -46,6 +46,7 @@
             </aside>
         </div>
     </div>
+    <script src="juego.js"></script>
 </body>
 
 </html>
