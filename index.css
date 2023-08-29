@@ -1,1 +1,56 @@
-fadfd
+body {
+    background: rgb(57, 161, 233);
+}
+#container {
+    width: 90%;
+}
+#container header {
+    background-color: white;
+    text-align: center;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+}
+#lateralizq {
+    text-align: center;
+    margin-top: 100px;
+    float: left;
+    width: 20%;
+    border-style: solid;
+    border-color: black;
+}
+#lateralder {
+    text-align: center;
+    margin-top: 100px;
+    float: right;
+    width: 20%;
+    border-style: solid;
+    border-color: black;
+}
+#centro{
+    margin-top: 100px; 
+    width: 50%;
+    float: left;
+    border-style: solid;
+    border-color: black;
+}
+#tablero {
+    margin:auto;
+       
+    height: 450px;
+    width: 450px;
+    border-style: solid;
+    border-color: black;
+}
+.celda_roja {
+    background-color: red;
+    float: left;
+    height: 150px;
+    width: 150px;
+}
+.celda_negra {
+    background-color: black;
+    float: left;
+    height: 150px;
+    width: 150px;
+}
